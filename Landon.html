@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landon Blackwell | Highlights</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #111;
+    }
+    header {
+      background-color: #e60000;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .stats {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+    .stat {
+      background: #fff;
+      border: 2px solid #ccc;
+      border-left: 6px solid #e60000;
+      padding: 20px;
+      min-width: 120px;
+      text-align: center;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .stat h3 {
+      margin: 0;
+      font-size: 24px;
+      color: #e60000;
+    }
+    .stat p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #555;
+    }
+    .highlights {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #fafafa;
+    }
+    .highlights h2 {
+      color: #e60000;
+      margin-bottom: 20px;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .content-blocks {
+      padding: 40px 20px;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    .content-blocks ol {
+      list-style-type: decimal;
+      margin: 0;
+      padding: 0;
+    }
+    .content-blocks li {
+      padding: 10px;
+    }
+    .content-blocks ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    .content-blocks ul li {
+      padding: 5px;
+    }
+    .tableau-section {
+      padding: 40px 20px;
+      background-color: #fafafa;
+      text-align: center;
+    }
+    nav {
+      background-color: #e60000;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Landon Blackwell</h1>
+    <p>Height: 6'0&quot; | Guard</p>
+  </header>
+
+  <section class="stats">
+    <div class="stat">
+      <h3>18</h3>
+      <p>Points/Game</p>
+    </div>
+    <div class="stat">
+      <h3>7</h3>
+      <p>Assists/Game</p>
+    </div>
+    <div class="stat">
+      <h3>5</h3>
+      <p>Rebounds/Game</p>
+    </div>
+    <div class="stat">
+      <h3>2</h3>
+      <p>Steals/Game</p>
+    </div>
+    <div class="stat">
+      <h3>2</h3>
+      <p>Blocks/Game</p>
+    </div>
+  </section>
+
+  <section class="highlights">
+    <h2>Highlight Reel</h2>
+    <div class="video-container">
+      <iframe src="https://www.instagram.com/reel/C0jdAEDgTOY/embed" frameborder="0" allowfullscreen style="width:100%; height:600px;"></iframe>
+    </div>
+  </section>
+
+  <section class="content-blocks">
+    <h2>More About Me</h2>
+    <ol>
+      <li>Personal Stats
+        <ul>
+          <li>Vertical: 40"</li>
+          <li>Wingspan: 6'4"</li>
+        </ul>
+      </li>
+      <li>Skills
+        <ul>
+          <li>3PT Shooting</li>
+          <li>Defense</li>
+          <li>Passing</li>
+          <li>Rebounding</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section class="tableau-section">
+    <h2>Interactive Tableau Graph</h2>
+    <iframe src="https://public.tableau.com/views/POKEMONDATAVISUALISATION_17194017703700/Dashboard1?:embed=true"
+            width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+    <div style="margin-top: 30px;">
+      <a href="webapp.html" style="background-color: #e60000; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Explore My Web App</a>
+    </div>
+  </section>
+
+  <nav>
+    <a href="#top">Back to Top</a> |
+    <a href="index.html">Professional Page</a> |
+    <a href="webapp.html">Web App</a>
+  </nav>
+</body>
+</html>
